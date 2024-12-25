@@ -8,6 +8,6 @@ This project made in Unity 6000.0.23f1 version so if you have above this version
 
 ## Social Media
 Stay connected with me on social media:
-- [Twitter]([https://twitter.com/yourprofile](https://x.com/slo_dev))
-- [Instagram]([https://instagram.com/yourprofile](https://www.instagram.com/sl0.dev))
-- [LinkedIn]([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/salem-albanaqi-4914a8302/))
+- [X(Twitter)](https://x.com/slo_dev)
+- [Instagram](https://www.instagram.com/sl0.dev)
+- [LinkedIn](https://www.linkedin.com/in/salem-albanaqi-4914a8302/)
