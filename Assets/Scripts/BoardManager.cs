@@ -112,16 +112,12 @@ public class BoardManager : MonoBehaviour
                 Destroy(ls.gameObject);
                 return;
             }
-
-            List<Vector3> linespos = new List<Vector3>();
+            // We need array to take all positions on line renderer
             Vector3[] lp = new Vector3[ls.positionCount];
             ls.GetPositions(lp);
-            for (int i = 0; i < lp.Length; i++)
+            foreach (var ps in lp)
             {
-                linespos.Add(lp[i]);
-            }
-            foreach (var ps in linespos)
-            {
+                // We will find nearest position to remove whole line
                 if (Vector3.Distance(pos, ps) < .2f)
                 {
                     linesRenderer.Remove(ls);

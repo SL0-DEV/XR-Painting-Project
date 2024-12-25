@@ -90,7 +90,7 @@ public class XRPen : XRGrabInteractable
     public void SetWidth(Slider slider)
     {
         DrawWidth = slider.value;
-        WidthPreview.transform.localScale = Vector3.one * (slider.value + .2f / slider.maxValue);
+        WidthPreview.transform.localScale = Vector3.one * (slider.value / slider.maxValue);
     }
     private void Update()
     {
@@ -102,16 +102,21 @@ public class XRPen : XRGrabInteractable
     /// </summary>
     private void PenMenuManager()
     {
+        if (!CanDraw)
+        {
+            PenMenu.SetActive(false);
+            return;
+        }
         if (isUsingLeftHand)
         {
-            if (LeftHandPenMenu.action.IsPressed())
+            if (LeftHandPenMenu.action.phase == InputActionPhase.Started)
             {
                 PenMenu.SetActive(!PenMenu.activeSelf);
             }
         }
         else
         {
-            if (RightHandPenMenu.action.IsPressed())
+            if (RightHandPenMenu.action.phase == InputActionPhase.Started)
             {
                 PenMenu.SetActive(!PenMenu.activeSelf);
             }
@@ -134,7 +139,7 @@ public class XRPen : XRGrabInteractable
             if (currentdraw.positionCount > 0)
             {
                 // We need to make sure is the next line is not like the old line :)
-                if (Vector3.Distance(currentdraw.GetPosition(lastIndex), hit.point) < 0.01f) return;
+                if (Vector3.Distance(currentdraw.GetPosition(currentdraw.positionCount -1), hit.point) < 0.01f) return;
 
                 currentdraw.startColor = CurrentColor;
                 currentdraw.endColor = CurrentColor;
