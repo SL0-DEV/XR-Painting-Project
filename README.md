@@ -11,3 +11,6 @@ Stay connected with me on social media:
 - [X(Twitter)](https://x.com/slo_dev)
 - [Instagram](https://www.instagram.com/sl0.dev)
 - [LinkedIn](https://www.linkedin.com/in/salem-albanaqi-4914a8302/)
+
+## Build
+[APK](https://drive.google.com/file/d/1_rUjrKImwrO_y-LHOeHP5_qtyPWI-sK_/view?usp=sharing)
