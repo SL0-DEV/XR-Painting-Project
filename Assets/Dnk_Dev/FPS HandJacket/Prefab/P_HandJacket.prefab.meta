@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6a4cc447cbbd57c4288bc812f8914f06
+timeCreated: 1490891027
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 84616
+  packageName: FPS Hand Jacket
+  packageVersion: 1.0
+  assetPath: Assets/Dnk_Dev/FPS HandJacket/Prefab/P_HandJacket.prefab
+  uploadId: 170680

@@ -1,0 +1,176 @@
+fileFormatVersion: 2
+guid: cea21ea90ca9adb459d1e8cd56fe9ac5
+timeCreated: 1490891029
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Cylinder01_02
+    100002: DNK_Bone01
+    100004: DNK_Bone02
+    100006: DNK_Bone03
+    100008: DNK_Bone04
+    100010: DNK_Bone05
+    100012: DNK_L_Bone01
+    100014: DNK_L_Bone02
+    100016: DNK_L_Bone03
+    100018: DNK_L_Finger1_01
+    100020: DNK_L_Finger1_02
+    100022: DNK_L_Finger1_03
+    100024: DNK_L_Finger2_01
+    100026: DNK_L_Finger2_02
+    100028: DNK_L_Finger2_03
+    100030: DNK_L_Finger3_01
+    100032: DNK_L_Finger3_02
+    100034: DNK_L_Finger3_03
+    100036: DNK_L_Finger4_01
+    100038: DNK_L_Finger4_02
+    100040: DNK_L_Finger4_03
+    100042: DNK_L_Finger5_01
+    100044: DNK_L_Finger5_02
+    100046: DNK_L_Finger5_03
+    100048: DNK_L_Hand
+    100050: DNK_R_Bone01
+    100052: DNK_R_Bone02
+    100054: DNK_R_Bone03
+    100056: DNK_R_Finger1_01
+    100058: DNK_R_Finger1_02
+    100060: DNK_R_Finger1_03
+    100062: DNK_R_Finger2_01
+    100064: DNK_R_Finger2_02
+    100066: DNK_R_Finger2_03
+    100068: DNK_R_Finger3_01
+    100070: DNK_R_Finger3_02
+    100072: DNK_R_Finger3_03
+    100074: DNK_R_Finger4_01
+    100076: DNK_R_Finger4_02
+    100078: DNK_R_Finger4_03
+    100080: DNK_R_Finger5_01
+    100082: DNK_R_Finger5_02
+    100084: DNK_R_Finger5_03
+    100086: DNK_R_Hand
+    100088: //RootNode
+    400000: Cylinder01_02
+    400002: DNK_Bone01
+    400004: DNK_Bone02
+    400006: DNK_Bone03
+    400008: DNK_Bone04
+    400010: DNK_Bone05
+    400012: DNK_L_Bone01
+    400014: DNK_L_Bone02
+    400016: DNK_L_Bone03
+    400018: DNK_L_Finger1_01
+    400020: DNK_L_Finger1_02
+    400022: DNK_L_Finger1_03
+    400024: DNK_L_Finger2_01
+    400026: DNK_L_Finger2_02
+    400028: DNK_L_Finger2_03
+    400030: DNK_L_Finger3_01
+    400032: DNK_L_Finger3_02
+    400034: DNK_L_Finger3_03
+    400036: DNK_L_Finger4_01
+    400038: DNK_L_Finger4_02
+    400040: DNK_L_Finger4_03
+    400042: DNK_L_Finger5_01
+    400044: DNK_L_Finger5_02
+    400046: DNK_L_Finger5_03
+    400048: DNK_L_Hand
+    400050: DNK_R_Bone01
+    400052: DNK_R_Bone02
+    400054: DNK_R_Bone03
+    400056: DNK_R_Finger1_01
+    400058: DNK_R_Finger1_02
+    400060: DNK_R_Finger1_03
+    400062: DNK_R_Finger2_01
+    400064: DNK_R_Finger2_02
+    400066: DNK_R_Finger2_03
+    400068: DNK_R_Finger3_01
+    400070: DNK_R_Finger3_02
+    400072: DNK_R_Finger3_03
+    400074: DNK_R_Finger4_01
+    400076: DNK_R_Finger4_02
+    400078: DNK_R_Finger4_03
+    400080: DNK_R_Finger5_01
+    400082: DNK_R_Finger5_02
+    400084: DNK_R_Finger5_03
+    400086: DNK_R_Hand
+    400088: //RootNode
+    4300000: Cylinder01_02
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Cylinder01_02
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 84616
+  packageName: FPS Hand Jacket
+  packageVersion: 1.0
+  assetPath: Assets/Dnk_Dev/FPS HandJacket/Models/W_HandJacket.FBX
+  uploadId: 170680
