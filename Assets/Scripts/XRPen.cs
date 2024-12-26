@@ -109,14 +109,14 @@ public class XRPen : XRGrabInteractable
         }
         if (isUsingLeftHand)
         {
-            if (LeftHandPenMenu.action.phase == InputActionPhase.Started)
+            if (LeftHandPenMenu.action.phase == InputActionPhase.Performed)
             {
                 PenMenu.SetActive(!PenMenu.activeSelf);
             }
         }
         else
         {
-            if (RightHandPenMenu.action.phase == InputActionPhase.Started)
+            if (RightHandPenMenu.action.phase == InputActionPhase.Performed)
             {
                 PenMenu.SetActive(!PenMenu.activeSelf);
             }

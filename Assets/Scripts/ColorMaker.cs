@@ -41,6 +41,15 @@ public class ColorMaker : MonoBehaviour
     {
         Green = slider.value;
     }
+    /// <summary>
+    /// This method will call from unity event or button event to get the button image color
+    /// </summary>
+    /// <param name="img"></param>
+    public void SetColorByImage(Image img)
+    {
+        CurrentColor = img.color;
+        ColorPreview.color = img.color;
+    }
     private void Awake()
     {
         if (Instance == null)

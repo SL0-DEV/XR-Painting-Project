@@ -1,5 +1,3 @@
-using Unity.Burst.Intrinsics;
-using UnityEditor.Callbacks;
 using UnityEngine;
 
 public class WorldPositionChecker : MonoBehaviour
